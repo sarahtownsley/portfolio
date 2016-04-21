@@ -43,7 +43,7 @@
         .social {
             height: 40px;
             width: 40px;
-            margin-top: 90px;
+            margin-top: 80px;
         }
         
         @media screen and (min-width: 480px) {
@@ -63,7 +63,7 @@
         
         .header-h1 {
             position: relative;
-            top: 15%;
+            top: 10%;
             transform: translateY(-50%);
             font-family: 'Open Sans Condensed', sans-serif;
             font-size: 4em;
