@@ -10,6 +10,9 @@ app.config(function ($routeProvider) {
     }).when("/education", {
         templateUrl: "Templates/education.html",
         controller: "EducationController"
+    }).when("/contact", {
+        templateUrl: "Templates/contact.html",
+        controller: "ContactController"
     });
 });
 
@@ -18,12 +21,14 @@ app.controller("AboutController", ["$scope", "$location", "$anchorScroll", funct
     $scope.name = "about";
     $scope.scrollToAboutSection = function () {
         $location.hash('about-section');
-//        $anchorScroll();
+        //        $anchorScroll();
         console.log($location.hash());
-        $(window).scrollTo($("#about-section"), 1000, {offset: -60});
-        
+        $(window).scrollTo($("#about-section"), 1000, {
+            offset: -60
+        });
+
     }
-    
+
 }]);
 
 app.controller("ProjectsController", ["$scope", "$location", "$anchorScroll", function ($scope, $location, $anchorScroll) {
@@ -31,17 +36,23 @@ app.controller("ProjectsController", ["$scope", "$location", "$anchorScroll", fu
     $scope.name = "projects";
     $scope.scrollToProjectSection = function () {
         $location.hash('project-section');
-        $(window).scrollTo($("#project-section"), 1000, {offset: -50});
+        //        $anchorScroll();
+        console.log($location.hash());
+        $(window).scrollTo($("#project-section"), 1000, {
+            offset: -60
+        });
+
     }
-    
+
 }]);
 
 app.controller("EducationController", ["$scope", "$location", "$anchorScroll", function ($scope, $location, $anchorScroll) {
-    
-    $scope.name= "education";
-    $scope.scrollToEducationSection = function () {
-        $location.hash('edcuation-section');
-        $(window).scrollTo($("#education-section"), 1000);
-    }
-    
+
+    $scope.name = "education";
+
+}]);
+
+app.controller("ContactController", ["$scope", "$location", function ($scope, $location) {
+
+    $scope.name = "contact";
 }]);
