@@ -43,7 +43,7 @@
         .social {
             height: 50px;
             width: 50px;
-            margin-top: 180px;
+            margin-top: 150px;
         }
         
         .aboutscroll {
@@ -55,7 +55,7 @@
         
         .header-h1 {
             position: relative;
-            top: 35%;
+            top: 30%;
             transform: translateY(-50%);
             font-family: 'Open Sans Condensed', sans-serif;
             font-size: 5em;
@@ -63,7 +63,7 @@
         
         .header-h2 {
             position: relative;
-            top: 25%;
+            top: 20%;
             font-family: 'Open Sans Condensed', sans-serif;
             font-size: 2em;
         }
