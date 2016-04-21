@@ -314,7 +314,7 @@
         .phone-num {
             font-family: 'Open Sans Condensed', sans-serif;
             color: black;
-            font-size: 3em;
+            font-size: 2em;
             margin-left: 16px;
             margin-top: 10px;
         }
@@ -322,13 +322,13 @@
         .email {
             font-family: 'Open Sans Condensed', sans-serif;
             color: black;
-            font-size: 3em;
+            font-size: 2em;
             margin-left: 5px;
         }
         
         .contact-social {
             margin-left: 15px;
-            font-size: 5em;
+            font-size: 4em;
             font-family: 'Amatic SC', cursive;
         }
         
