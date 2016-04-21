@@ -67,6 +67,7 @@
             transform: translateY(-50%);
             font-family: 'Open Sans Condensed', sans-serif;
             font-size: 3.5em;
+            text-shadow: 1px 1px black;
         }
         
         @media screen and (min-width: 480px) {
@@ -76,6 +77,7 @@
                 transform: translateY(-50%);
                 font-family: 'Open Sans Condensed', sans-serif;
                 font-size: 5em;
+                text-shadow: 1px 1px black;
             }
         }
         
@@ -93,6 +95,7 @@
                 top: 22%;
                 font-family: 'Open Sans Condensed', sans-serif;
                 font-size: 2em;
+                text-shadow: 1px 1px black;
             }
         }
         
