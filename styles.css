@@ -63,7 +63,7 @@
         
         .header-h1 {
             position: relative;
-            top: 10%;
+            top: 15%;
             transform: translateY(-50%);
             font-family: 'Open Sans Condensed', sans-serif;
             font-size: 4em;
@@ -81,7 +81,7 @@
         
         .header-h2 {
             position: relative;
-            top: 10%;
+            top: 5%;
             font-family: 'Open Sans Condensed', sans-serif;
             font-size: 2em;
         }
