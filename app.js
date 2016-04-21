@@ -33,16 +33,6 @@ app.controller("AboutController", ["$scope", "$location", "$anchorScroll", funct
 
 app.controller("ProjectsController", ["$scope", "$location", "$anchorScroll", function ($scope, $location, $anchorScroll) {
 
-    $scope.name = "projects";
-    $scope.scrollToProjectSection = function () {
-        $location.hash('project-section');
-        //        $anchorScroll();
-        console.log($location.hash());
-        $(window).scrollTo($("#project-section"), 1000, {
-            offset: -60
-        });
-
-    }
 
 }]);
 

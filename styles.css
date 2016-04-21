@@ -180,17 +180,11 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 325px;
+            height: 150px;
             text-align: center;
             color: whitesmoke;
             opacity: 0.3%;
             text-shadow: 3px 3px black;
-        }
-        
-        .project-header .projectscroll {
-            font-size: 4em;
-            margin-top: 50px;
-            color: whitesmoke;
         }
         
         .image-responsive {
@@ -228,7 +222,7 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 325px;
+            height: 150px;
             text-align: center;
             color: whitesmoke;
             text-shadow: 3px 3px black;
@@ -248,17 +242,25 @@
             font-size: 20px;
         }
         
-        .school-logo {
-            width: 300px;
+        .vschool-logo {
+            width: 400px;
             height: auto;
             align-content: center;
-            margin-top: 20px;
+            margin-top: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .utes-logo {
+            width: 400px;
+            height: auto;
+            align-content: center;
+            margin-top: 0px;
             margin-bottom: 30px;
         }
         
         .school {
             border-right: 1px solid black;
-            margin-top: 30px;
+            margin-top: 70px;
         }
         
         .aw {
@@ -275,7 +277,7 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 325px;
+            height: 150px;
             text-align: center;
             color: whitesmoke;
             text-shadow: 3px 3px black;
@@ -290,7 +292,7 @@
         }
         
         .contact-div {
-            margin-top: 40px;
+            margin-top: 100px;
             border-right: 1px solid black;
         }
         
