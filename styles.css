@@ -70,6 +70,12 @@
             text-shadow: 1px 1px black;
         }
         
+        .header-h1-other {
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 6em;
+            text-shadow: 1px 1px black;
+        }
+        
         @media screen and (min-width: 480px) {
             .header-h1 {
                 position: relative;
