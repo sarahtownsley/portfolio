@@ -58,14 +58,14 @@
             top: 35%;
             transform: translateY(-50%);
             font-family: 'Open Sans Condensed', sans-serif;
-            font-size: 100px;
+            font-size: 6em;
         }
         
         .header-h2 {
             position: relative;
             top: 25%;
             font-family: 'Open Sans Condensed', sans-serif;
-            font-size: 35px;
+            font-size: 2em;
         }
         
         .resume {
