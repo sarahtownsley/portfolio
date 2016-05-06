@@ -22,7 +22,7 @@
             background-size: cover;
             background-position: bottom;
             background-repeat: no-repeat;
-            height: 600px;
+            height: 100vh;
             text-align: center;
             color: whitesmoke;
             text-shadow: 3px 3px black;
@@ -43,14 +43,12 @@
         .social {
             height: 40px;
             width: 40px;
-            margin-top: 60px;
         }
         
         @media screen and (min-width: 480px) {
             .social {
                 height: 40px;
                 width: 40px;
-                margin-top: 140px;
             }
         }
         
@@ -62,8 +60,7 @@
         }
         
         .header-h1 {
-            position: relative;
-            top: 15%;
+            margin-top: 250px;
             transform: translateY(-50%);
             font-family: 'Open Sans Condensed', sans-serif;
             font-size: 3.5em;
@@ -78,8 +75,7 @@
         
         @media screen and (min-width: 480px) {
             .header-h1 {
-                position: relative;
-                top: 30%;
+                margin-top: 250px;
                 transform: translateY(-50%);
                 font-family: 'Open Sans Condensed', sans-serif;
                 font-size: 5em;
@@ -88,8 +84,7 @@
         }
         
         .header-h2 {
-            position: relative;
-            top: 10%;
+            margin-top: -30px;
             font-family: 'Open Sans Condensed', sans-serif;
             font-size: 2em;
             text-shadow: 1px 1px black;
@@ -97,8 +92,7 @@
         
         @media screen and (min-width: 480px) {
             .header-h2 {
-                position: relative;
-                top: 22%;
+                margin-top: -30px;
                 font-family: 'Open Sans Condensed', sans-serif;
                 font-size: 2em;
                 text-shadow: 1px 1px black;
